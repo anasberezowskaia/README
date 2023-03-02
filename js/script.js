@@ -79,11 +79,11 @@ function reset() {
 let flag =1;
 function setValue() {
     if (flag == 1) {
-        this.value = "x";
+        this.value = "X";
         this.disabled = true;
         flag = 0;
     } else {
-        this.value = "o";
+        this.value = "O";
         this.disabled = true;
         flag = 1;
     }
